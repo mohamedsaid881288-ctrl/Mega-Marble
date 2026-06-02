@@ -80,7 +80,7 @@ cd Mega-Marble
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\\Scripts\\activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 ### Step 3: Get GitHub App Credentials
@@ -102,7 +102,7 @@ Edit `.env` with your values:
 ```env
 # GitHub App Configuration
 GITHUB_APP_ID=12345          # Your app ID
-GITHUB_PRIVATE_KEY=-----BEGIN RSA PRIVATE KEY-----\\n...\\n-----END RSA PRIVATE KEY-----
+GITHUB_PRIVATE_KEY=-----BEGIN RSA PRIVATE KEY-----\n...\n-----END RSA PRIVATE KEY-----
 WEBHOOK_SECRET=your_webhook_secret_here
 
 # Hugging Face Token (get from https://huggingface.co/settings/tokens)
