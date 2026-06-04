@@ -23,8 +23,7 @@ class GithubWebhookHandler:
         Initialize webhook handler
         
         Args:
-            private_key: GitHub App private key
-            app_id: GitHub App ID
+            private_key: AIzaSyDz2BXXk1CQWAlbCvjbnnmQT_9to3H0P34 app_id:mohamedsaid@first-renderer-457419-e4.iam.gserviceaccount.com
         """
         self.private_key = private_key
         self.app_id = app_id
